@@ -1,0 +1,35 @@
+    /* Estilo del contenedor donde se moverán los botones */
+    #marco {
+      position: relative;
+      width: 700px;
+      height: 600px;
+      border: 2px solid #ffffff;
+      margin: 20px auto;
+      overflow: hidden;
+      /* Oculta botones que salgan del marco */
+    }
+
+    /* Estilo base de los botones del juego */
+    .boton-juego {
+      position: absolute;
+      /* Posición libre para mover dentro del marco */
+      width: 150px;
+      height: 150x;
+      color: rgb(255, 255, 255);
+      background: linear-gradient(rgb(53, 50, 50), rgb(67, 114, 75));
+      /* Gradiente de rojo a azul */
+      border: none;
+      /* Opcional, elimina el borde si no lo quieres */
+      border-radius: 10px;
+      /* Opcional, para bordes redondeados */
+    }
+
+    body {
+      background-image: url('https://images5.alphacoders.com/696/thumb-1920-696114.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+
+
+    }
